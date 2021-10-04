@@ -8,7 +8,7 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "test": "jest",
-    "postinstall": "npm run build",
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "bootstrap": "^5.0.1",
