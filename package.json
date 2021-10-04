@@ -5,19 +5,23 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start",
+    "start_dev": "nuxt start",
     "generate": "nuxt generate",
-    "test": "jest"
+    "test": "jest",
+    "postinstall": "npm run build",
+    "start": "node server.js"
   },
   "dependencies": {
     "bootstrap": "^5.0.1",
     "bootstrap-select": "^1.13.18",
     "core-js": "^3.9.1",
+    "express": "^4.17.1",
     "flag-icon-css": "^3.5.0",
     "gasp": "0.0.2",
     "gsap": "file:gsap-bonus.tgz",
     "nuxt": "^2.15.3",
     "nuxt-i18n": "^6.27.0",
+    "serve-static": "^1.14.1",
     "vue-scrollmagic": "^1.2.0"
   },
   "devDependencies": {
