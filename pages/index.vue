@@ -108,7 +108,7 @@ $blueColor: rgba(33, 150, 243, 1);
     -webkit-animation: icon3d 200ms infinite;
     animation: icon3d 200ms infinite;
   }
-}
+} 
 
 @keyframes icon3d {
   0% {
